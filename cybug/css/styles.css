@@ -16,6 +16,7 @@
     background: black;
     border: 2px blue solid;
     border-top: none;
+    display: " ";
 }
 /* body styling */
 body{
@@ -402,6 +403,7 @@ transition: ease;
 .about p{
     width: 300px;
     height: 300px;
+    font-family: cursive;
 }
 /* services represented in formm of animated boxes */
 .box{
@@ -813,14 +815,20 @@ footer li a:hover{
         width: 100%;
 
     }
+    .dec{
+        margin-top: -30px;
+    }
+    .flex_nav{
+        margin-top: -30px;
+    }
     .menubar a{
         text-decoration: none;
         color: white;
         font-weight:400;
-        font-size: 2opx;
+        font-size: 25px;
         background: rgba(29, 28, 28, 0.5);
         border-radius: 4px;
-        padding: 10px;
+        padding: 5px;
     }    
     
     .container{
@@ -833,14 +841,17 @@ footer li a:hover{
         padding-left: 10px;
         cursor: pointer;
         position: absolute;
-        top:0;
+        top:3px;
         right:5px;
         padding-left: 10px ;
     }
     .top_div{
         display: block; 
         width: 100%; 
-        margin: 0px auto;   
+        margin: 0px auto;  
+        margin-top: 30px; 
+        overflow: hidden;
+        position: relative;
     } 
 .dec{
     /* background:black; */
@@ -848,11 +859,12 @@ footer li a:hover{
     width: 100%;
     position: fixed;
     height: 100vh;
+    margin-top: 15px;
     
     /* height: 100vh; */
 }  
 header{
-    height: 40px;
+    height: 50px;
 }
 
 
@@ -866,6 +878,7 @@ header{
         height: 100vh;
         display: none;
         background-color: black;
+        position: absolute;
         /* margin-top: x; */
         
     }

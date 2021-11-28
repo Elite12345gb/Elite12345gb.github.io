@@ -4,16 +4,20 @@ function toggle(){
         document.querySelector("header").style.position = "fixed";
         document.querySelector(".crossed").style.display = "block"; 
         document.querySelector(".menu_bar").style.display = "none";   
+        document.querySelector("scrollbar-thumb").style.display = "none";   
     }
     else{
         document.querySelector("#dec_ul").style.display = "none";
-        document.header.style.position = "relative";}
+        document.querySelector("header").style.position = "relative";
+        document.querySelector("scrollbar-thumb").style.display = " ";
+    }
 };
 function tot(){
     document.querySelector(".menu_bar").style.display = "block";
     document.querySelector(".crossed").style.display = "none";
     document.querySelector("#dec_ul").style.display = "none";
-        document.header.style.position = "relative";
+    document.querySelector("header").style.position = "relative";
+    document.querySelector("::-webkit-scrollbar-thumb").style.display = " ";
 }
 function toggle2(){
     if (document.querySelector(".shiny").style.display == "none"){
