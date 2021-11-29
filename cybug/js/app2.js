@@ -21,3 +21,9 @@ for (let i = 0; i < infos.length; i++){
        
 }
 }
+
+
+
+function  but(){
+location.assign("#about")
+}
